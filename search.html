@@ -10,7 +10,7 @@ permalink: /search
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-language" content="en">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/search">
+    
     
     <!-- Title akan di-update JavaScript -->
     <title id="dynamic-title">Search Exclusive Content Archive</title>
@@ -18,8 +18,7 @@ permalink: /search
     <!-- Meta Description akan di-update JavaScript -->
     <meta id="dynamic-description" name="description" content="Browse our comprehensive collections of celebrity content, including photos, videos, biographies, and exclusive material.">
     
-    <link rel="home" href="/">
-    <link rel="sitemap" href="/sitemap.xml">
+   
     
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 1000px; margin: 0 auto; padding: 20px; }
@@ -104,7 +103,7 @@ permalink: /search
             </div>
             
             <div id="intro-platform" class="intro-varian hidden">
-                <p>Welcome to the <strong class="query-placeholder"></strong> platform content archive. This collection brings together all material from <a href="" class="dynamic-link" data-variant="instagram">Instagram</a>, <a href="" class="dynamic-link" data-variant="onlyfans">OnlyFans</a>, <a href="" class="dynamic-link" data-variant="twitter">Twitter</a>, and other platforms. Explore exclusive platform-specific content all in one place.</p>
+                <p>Welcome to the <strong class="query-placeholder"></strong> platform content archive. This collection brings together all material from <a href="" class="dynamic-link" data-variant="instagram">Instagram</a>, <a href="" class="dynamic-link" data-variant="facebook">facebook</a>, <a href="" class="dynamic-link" data-variant="twitter">Twitter</a>, and other platforms. Explore exclusive platform-specific content all in one place.</p>
             </div>
             
             <div id="intro-general" class="intro-varian hidden">
@@ -122,7 +121,7 @@ permalink: /search
                 <a href="" class="dynamic-link" data-variant="videos">video collections</a>, and 
                 <a href="" class="dynamic-link" data-variant="bio">personal biography</a>. Others seek 
                 <a href="" class="dynamic-link" data-variant="exclusive">exclusive content</a> from platforms like 
-                <a href="" class="dynamic-link" data-variant="onlyfans">OnlyFans</a>, 
+                <a href="" class="dynamic-link" data-variant="facebook">facebook</a>, 
                 <a href="" class="dynamic-link" data-variant="instagram">Instagram</a>, and 
                 <a href="" class="dynamic-link" data-variant="tiktok">TikTok</a>. Our archive covers all these areas comprehensively.</p>
             </section>
@@ -192,7 +191,7 @@ permalink: /search
                 
                 <ul>
                     <li><a href="" class="dynamic-link" data-variant="instagram"><span class="query-placeholder"></span> Instagram content</a> – posts, stories, and shared moments</li>
-                    <li><a href="" class="dynamic-link" data-variant="onlyfans"><span class="query-placeholder"></span> OnlyFans content</a> – exclusive subscriber material</li>
+                    <li><a href="" class="dynamic-link" data-variant="facebook"><span class="query-placeholder"></span> facebook content</a> – exclusive subscriber material</li>
                     <li><a href="" class="dynamic-link" data-variant="twitter"><span class="query-placeholder"></span> Twitter/X archive</a> – tweets and interactions</li>
                     <li><a href="" class="dynamic-link" data-variant="tiktok"><span class="query-placeholder"></span> TikTok videos</a> – short-form content and trends</li>
                     <li><a href="" class="dynamic-link" data-variant="youtube"><span class="query-placeholder"></span> YouTube appearances</a> – interviews and features</li>
@@ -246,7 +245,7 @@ permalink: /search
                     <li><a href="/search?q=photo+archives">Photo archives</a></li>
                     <li><a href="/search?q=video+collections">Video collections</a></li>
                     <li><a href="/search?q=leaked+content">Leaked content</a></li>
-                    <li><a href="/search?q=onlyfans+leaks">OnlyFans leaks</a></li>
+                    <li><a href="/search?q=facebook+leaks">facebook leaks</a></li>
                 </ul>
             </section>
             
@@ -343,7 +342,7 @@ permalink: /search
             queryType = 'video';
         } else if (queryLower.includes('bio') || queryLower.includes('biography') || queryLower.includes('age') || queryLower.includes('height')) {
             queryType = 'bio';
-        } else if (queryLower.includes('instagram') || queryLower.includes('onlyfans') || queryLower.includes('twitter') || queryLower.includes('tiktok')) {
+        } else if (queryLower.includes('instagram') || queryLower.includes('facebook') || queryLower.includes('twitter') || queryLower.includes('tiktok')) {
             queryType = 'platform';
         }
         
